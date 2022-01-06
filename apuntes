@@ -32,3 +32,12 @@
     c- $# --> Contador de argumentos
     d- $* --> Refiere a todos los argumentos
 
+06_Como realizar la sustitucion de comandos en variables?
+    La idea de la sustitucion de comandos, es poder almacenar la salida de la ejecucion de un comando en una variable, para poder volver a utilizar esta informacion. Esto se puede hacer de dos formas:
+        a- Usando el backtick caracter (')
+        b- Usando el signo de dolar con el formato --> $(comando)
+
+07_Como realizar debug de un script?
+    Existen dos opciones para debugear un script con el comando bash. Estas son:
+        a- con el parametro [-v] podemos ver un resultado detallado de nuestro script linea por linea
+        b- con el parametro [-x] podemos obtener un detalle de los comandos utilizados y su salida
