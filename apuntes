@@ -1,0 +1,34 @@
+01_Linux consta de 3 partes principales:
+	Kernel: Nucleo del sistema. Gestiona y administra los recursos de hardware de una computadora, como el CPU, la memoria y los perifericos
+	Shell: Es un interprete, un programa con una interfaz de usuario que nos permite ejecutar aplicaciones en un lenguaje de alto nivel y procesarlas en un lenguaje de bajo nivel.
+	Aplicaciones: Son los programas con los que interactuamos dia a dia. Libre Office, PDF Reader, etc
+	
+
+02_Tipos de shell
+	a- sh: Creada en los laboratorios Bell, por Steve Born. Fue la primera shell utilizada por los sistemas operativos Unix
+	b- zsh: Es un interprete de comandos que puede funcionar como shell interactiva o interprete de lenguaje de scripting. Algunas de sus ventajas son:
+		- eficiencia
+		- completado de tabulador
+		- expansion de nombre de ficheros mejorada
+		- manejo de arrays
+		- totalmente personalizable
+	c- csh: Fue diseñada para permitir a los usuarios escribir programas en script de shell con una sintaxis muy similiar al lenguje de programacion C
+	d- bash: La Shell Bourne-Again es una versión actualizada de la Shell Bourne original creada por la Free Software Foundation en su proyecto de código abierto GNU. 3
+		 Su sintaxis es similar a la utilizada por la Shell Bourne, sin embargo, incorpora algunas de las funcionalidades más avanzadas que se encuentran en las shells C, TC y Korn.
+		 En	tre las funcionalidades adicionales que carecía Bourne, está la capacidad para completar nombres de archivos pulsando la tecla TAB, la capacidad de recordar un historial de 
+		 comandos recientes y la capacidad de ejecutar múltiples programas en segundo plano a la vez. Conocida como "Bash" (Bourne again shell)
+
+03_Comandos basicos para recuperar info de un comando:
+	a- man seguido del comando [man + (comando)]
+	b- info seguido del comando [info + (comando)]
+
+04_Que es el bash scripting?
+	La idea fundamental del bash scripting es poder ejecutar multiples comando de manera secuencial, para poder automatizar una tarea en especifico atravez de una serie de rutinas comandos 
+	procedimientos, etc. Estos comandos son colocados en una archivo de texto simple y ejecutados en una terminal por el usuario.
+
+05_Como ejecutar un script con argumentos?
+    a- $0 --> El nombre del script
+    b- $1 al ${10} --> El numero de argumentos,si son mas de un digito se utilizan llaves
+    c- $# --> Contador de argumentos
+    d- $* --> Refiere a todos los argumentos
+
