@@ -41,3 +41,22 @@
     Existen dos opciones para debugear un script con el comando bash. Estas son:
         a- con el parametro [-v] podemos ver un resultado detallado de nuestro script linea por linea
         b- con el parametro [-x] podemos obtener un detalle de los comandos utilizados y su salida
+
+08_Como capturar informacion del usuario?
+    Para capturar informacion del usuario se utiliza el comando "read" y se puede utilizar de dos maneras:
+        a- utilizarlo en conjunto con el comando echo
+        b- utiiizarlo solo
+
+09_Expresion Regulares
+    Cuando se solicita ingresar informacion a traves de un programa por parte del usuario, independientemente del leguaje de programacion, es importante considerar la validacion de la informacion, asi como su tamano, tipo de dato, formato soportado etc.
+    En la programacion bash, se utilizas expresion regulares (cadena de caracteres que definen un patron de busqueda) para validar la informacion.
+    Criterios a tener presente:
+        a- [^] Caracter de inicio de un expresion regular
+        b- [$] Caracter de fin de una expresion regular
+        c- [*] Caracter que representa cero o mas ocurrencias de la expresion
+        d- [+] Caracter que representa una o mas ocurrencias de la expresion
+        e- [{n}] Representa n veces de una expresion
+        f- [[]] Representa un conjunto de caracteres, por ejemplo [a-z]
+
+10_Como validar tamanos y tipo de dato en el ingreso de la informacion?
+    Con el comando "read" agregando el parametro -n podemos definir la longitud de los datos a ingresar. Para el tipo de dato, debemos utilizar expresiones regulares.
