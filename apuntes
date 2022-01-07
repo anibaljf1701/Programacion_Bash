@@ -34,7 +34,7 @@
 
 06_Como realizar la sustitucion de comandos en variables?
     La idea de la sustitucion de comandos, es poder almacenar la salida de la ejecucion de un comando en una variable, para poder volver a utilizar esta informacion. Esto se puede hacer de dos formas:
-        a- Usando el backtick caracter (')
+        a- Usando el backtick caracter (`)
         b- Usando el signo de dolar con el formato --> $(comando)
 
 07_Como realizar debug de un script?
