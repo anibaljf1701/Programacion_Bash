@@ -60,3 +60,15 @@
 
 10_Como validar tamanos y tipo de dato en el ingreso de la informacion?
     Con el comando "read" agregando el parametro -n podemos definir la longitud de los datos a ingresar. Para el tipo de dato, debemos utilizar expresiones regulares.
+
+11_Como utilizar las sentencias if, elif, else?
+    El formato de uso de estas condiciones es:
+        if [ condition ]; then
+            statement 1
+        elif [ condition ]; then
+            statement 2
+        else
+            statement 3
+        fi
+    Dentro de las condiciones, podemos utilizar tanto operadores logicos como operadores condicionales. Otra cosa a tener en cuenta es que el flujo de programa ingresar al if solo si la condicion es verdadera
+
