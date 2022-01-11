@@ -71,4 +71,25 @@
             statement 3
         fi
     Dentro de las condiciones, podemos utilizar tanto operadores logicos como operadores condicionales. Otra cosa a tener en cuenta es que el flujo de programa ingresar al if solo si la condicion es verdadera
+    Operadores relacionales utilizados en las condiciones:
+        a- [-eq] "is equal to"--> Igual a
+        b- [-ne] "is not equal to" --> No es igual a
+        c- [-gt] "is great than" --> Mayor a
+        d- [-ge] "is greater than or equal to" --> Mayor o igual a
+        e- [-lt] "is less than" --> Menor a
+        f- [-le] "is less than or equals to" --> Menor o igual a
 
+12_Como utilizar los if anidados?
+    El formato de uso de estas condiciones es:
+        if [ condition ]; then
+            if [ condition ]; then
+                statement 1
+            else
+                statement 2
+        else
+            statement 3
+        fi
+    Los operadores a utilizar pueden ser tanto logicos [ && || ]como condicionales [ -ne -eq ]
+
+13_Como utilizar expresiones condicionales?
+    Son untilizadas para tomar una desicion o una iteracion. Estan formadas por una o mas condiciones de tipos de datos diferentes. Se utilizan tanto operadores relacionales como condicionales.
