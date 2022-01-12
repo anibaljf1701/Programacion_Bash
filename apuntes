@@ -93,3 +93,16 @@
 
 13_Como utilizar expresiones condicionales?
     Son untilizadas para tomar una desicion o una iteracion. Estan formadas por una o mas condiciones de tipos de datos diferentes. Se utilizan tanto operadores relacionales como condicionales.
+ 
+14_Como utilizar las setencias case?
+    Se utiliza para evaluar expresiones, sean un entero o una cadena. Similar a la setencia swich de algunos lenguajes de programacion. Tambien puede evaluar rango de caracteres:
+        case expression in
+        opcion1)
+            statements 1;;
+        opcion2)
+            statements 2;;
+        ....
+        esac
+15_Como utilizar arreglos?
+    Un arreglo es una variable con varios elementos. Para crear arreglos se debe colocar los elementos dentro de un barckets "nombreArreglo=(valor1, valor2, ... varlorN)" o utilizar rangos.
+    El indice de un arreglo comienza en 0. Con el comando unset nombreArreglo[pos] podemos eliminar elementos de un arreglo
