@@ -106,3 +106,41 @@
 15_Como utilizar arreglos?
     Un arreglo es una variable con varios elementos. Para crear arreglos se debe colocar los elementos dentro de un barckets "nombreArreglo=(valor1, valor2, ... varlorN)" o utilizar rangos.
     El indice de un arreglo comienza en 0. Con el comando unset nombreArreglo[pos] podemos eliminar elementos de un arreglo
+
+16_Como utilizar la setencia for loop?
+    La sentencia for, permite iterar una lista de valores: numeros, cadenas, nombre de archivos, argumentos de lineas de comando, etc. En bash, soporta foor loop three expression, que es como
+    se utiliza en muchos lenguajes de programacion.
+    Su sintaxis es:
+        for var in item1, item2 ... itemN
+        do
+            statement1
+            statement2
+            ...
+            statementN
+        done
+
+17_Como utilizar la setencia while loop?
+    La sentencia while, permite iterar una lista de valores en base a un condicion logica, que debe ser evaluada como verdad
+    Su sintaxis es:
+        while [ condition ]
+        do
+            statement1
+            statement2
+            ...
+            statementN
+        done
+
+18_Como realizar loops aninados?
+    Sintaxis:  
+        for van in item1 item2 ... itemN
+        do 
+            for var in [A...Z]
+            do
+                statement1
+                ...
+                statementN
+            done
+        done
+
+19_Como utilizar las setencias break y continuos?
+    Estas sentencias nos permitene frenar un loop (break) o continuar con la siguiente iteracion (continue)
