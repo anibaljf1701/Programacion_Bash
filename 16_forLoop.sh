@@ -27,7 +27,7 @@ done
 echo "Iterar utilizando un comando"
 for file in $(ls)
 do
-    echo "Nombre del archiv o: $file"
+    echo "Nombre del archivo: $file"
 done
 
 echo "Iterar utilizando el formato tradicional"

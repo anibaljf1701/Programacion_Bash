@@ -36,14 +36,15 @@ do
             ;;
         3) 
             echo -e "\nSacar respaldo..."
-            sleep
+            sleep 3
             ;;
         4) 
             echo -e "\nRestaurar respaldo..."
             sleep 3
             ;;
         5)  
-            echo -e "\nSalir del programa"
+            echo -e "\nSaliendo del programa..."
+            sleep 1
             exit 0
             ;;
     esac
