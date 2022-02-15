@@ -25,5 +25,5 @@ echo "Posicion 3 del arreglo de rangos: ${arregloRangos[3]}"
 #Agregar y eliminiar valores de un arreglo
 arregloNumeros[7]=20
 unset arregloNumeros[0]
-echo "arreglo de numeros: ${arregloNumeros[*]}"
+echo "Arreglo de numeros: ${arregloNumeros[*]}"
 echo "Tamano arreglo de numeros: ${#arregloNumeros[*]}"
